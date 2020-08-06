@@ -1,0 +1,22 @@
+.TotalDataContainer {
+    background-color: rgba(244, 199, 161, 0.1);
+    display: grid;
+}
+.TotalDataContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+li {
+    list-style: none;
+    padding: 1vw;
+}
+.textAlineEnd {
+    text-align: end;
+}
+.searchResult {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+input {
+    padding: .4vw 1vw;
+}

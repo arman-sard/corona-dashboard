@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corona</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="TotalDataContainer">
+        <div class="TotalDataContent">
+            <li id="armenia-text"></li>
+            <li class="textAlineEnd" id="armenia-num"></li>
+        </div>
+        <div class="TotalDataContent">
+            <li id="united-kingdom-text"></li>
+            <li class="textAlineEnd" id="united-kingdom-num"></li>
+        </div>
+        <div class="TotalDataContent">
+            <li id="germany-text"></li>
+            <li class="textAlineEnd" id="germany-num"></li>
+        </div>
+        <div class="searchResult">
+            <input id="inputSearch" type="text" placeholder="Search your Country here...">
+            <input id="myBtn" type="button" value="Submit">
+            <input id="inputAnswer" class="searchResult textAlineEnd" type="text" placeholder="...">
+        </div>
+    </div>
+    <canvas id="myChart" width="800" height="200"></canvas>
+    <canvas id="myChart2" width="800" height="200"></canvas>
+</div>
+</body>
+</html>
