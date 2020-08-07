@@ -7,7 +7,7 @@ const mySearch = (searchValue) => {
         const CoData = CountriesArray[i];
         if (CoData.Country === searchValue) {
             console.log("yes", CoData);
-            document.getElementById("inputAnswer").value = CoData.NewDeaths;
+            document.getElementById("inputAnswer").value = "The new Confirmed cases count is:  " + CoData.NewConfirmed;
         }
     }
 };
